@@ -11,7 +11,6 @@ create 2 namespaces for prometheus & loki
 ```sh
 kubectl create ns <name-of-namespace>
 ```
-
 check your helm repo
 
 ```sh
@@ -21,16 +20,12 @@ or you can also add
 ```sh
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add grafana-loki https://grafana.github.io/helm-charts
-```sh
-
+```
 update your helm repo
-
 ```sh
 helm repo update
 ```
-
 Search your helm repo 
-
 ```sh
 helm search repo prometheus-community
 ```
