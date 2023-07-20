@@ -5,6 +5,8 @@ Start your local kubernetes cluster
 ```sh
 minikube start --driver=virtualbox
 ```
+https://github.com/Supriyo-Roy/jenkins-demo/assets/101391805/9ee14a39-d4b7-408c-8c41-fca4c88e43cb
+
 
 create 2 namespaces for prometheus & loki
 
